@@ -17,7 +17,7 @@ class MainWindow:
                   bg="azure", relief="ridge", bd=20)
         f.propagate(0)
         f.pack()
-        self.man = PhotoImage(file="D:\\workspace\\quiz\\Resources\\imag.png")
+        self.man = PhotoImage(file="D:\\code\\sql\\quiz\\Resources\\imag.png")
         imgMan = Label(f, image=self.man, bg="azure")
         imgMan.place(x=0, y=60)
 
